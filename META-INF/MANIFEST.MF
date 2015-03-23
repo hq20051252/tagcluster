@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: tagcluster
+Bundle-SymbolicName: com.umessage.tagcluster.tools;singleton:=false
+Bundle-Version: 0.18
+Main-Class: com.umessage.tagcluster.tools.ConvertToVector
+Bundle-ClassPath: bin/,
+ lib/hadoop-core-1.2.1.jar,
+ lib/mahout-core-0.9.jar,
+ lib/mahout-math-0.9.jar
+Bundle-Vendor: Umessage
